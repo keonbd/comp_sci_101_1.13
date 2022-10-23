@@ -1,0 +1,15 @@
+import math
+userNum = int(input('Enter integer:\n'))
+print()
+print(f'You entered: {userNum}')
+squared = math.pow(userNum, 2)
+print(f'{userNum} squared is {math.floor(squared)}')
+cubed = math.pow(userNum, 3)
+print(f'And {userNum} cubed is {math.floor(cubed)} !!')
+Another_one = int(input('Enter another integer:\n'))
+print()
+addfour = 4 + Another_one
+multiplyfour = 4 * Another_one
+print(f'4 + {Another_one} is {addfour}')
+print(f'4 * {Another_one} is {multiplyfour}')
+# Type your code here
